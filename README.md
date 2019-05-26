@@ -1,9 +1,9 @@
-### daud.io HOOK SETTINGS CHANGER
+### [DAUD](daud.io) HOOK SETTINGS CHANGER
 
 # Requirements
-* Python 3.6 (or Higher)
-* Requests (pip install requests)
-* Flask (pip install Flask)
+* [Python](https://www.python.org) 3.6 (or Higher) 
+* [Requests](https://pypi.org/project/requests) (pip install requests) **[Python Module]**
+* [Flask](https://pypi.org/project/Flask/) (pip install Flask) **[Python Module]**
 
 # About
 This simple applications is created to help easily make changes to daud.io hook settings and see the results of your changes. 
@@ -18,4 +18,4 @@ This simple applications is created to help easily make changes to daud.io hook 
 7. If happy with your changes, then use the `Download Hook Changes` option to download a json file including all your hook changes.
 
 # Notes
-This is v1.0, which is currently configured to allow modifying of the `Default` world in the `Daud eu` server.
+This is v1.0, which is currently configured to allow modifying of the `Default` world in the `Daud eu` server. 
