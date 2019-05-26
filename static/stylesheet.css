@@ -1,0 +1,91 @@
+h1 {
+	text-align: center;
+	margin: 10px auto;
+}
+
+form {
+	max-width: 100%;
+	margin: 0 10%;
+	display: inline-block;
+}
+
+label {
+	width: 250px;
+	display: inline-block;
+	font-size: 12px;
+	text-align: left;
+	overflow-wrap: break-word;
+}
+
+#left_container{
+	width: 45vw;
+	text-align: center;
+	display: inline-block;
+}
+
+#right_container{
+	vertical-align: top;
+	width: 45vw;
+	text-align: center;
+	display: inline-block;
+	position: fixed;
+	right: 10;
+	height: 90vh;
+	overflow: auto;
+	overflow-y: hidden;
+}
+
+#revert_changes_container {
+	width: 100%;
+}
+
+#hook_changes_summary, table {
+	width: 80%;
+}
+
+.hook_input_item {
+	border-bottom: 1px solid silver;
+}
+
+input {
+	font-size: 10px;
+	margin-left: 5px;
+	text-align: left;
+}
+
+#fixed_div {
+	display: inline-block;
+	vertical-align: top;
+	height: 90vh;
+	position: fixed;
+	overflow: auto;
+	padding: 10px;
+}
+
+#daud_iframe {
+	width: 550px;
+	height: 310px;
+	margin: 10px 0;
+}
+
+.value_changed {
+	background : black;
+	color: white;
+}
+
+.hide {
+	display: none;
+}
+
+table {
+	margin: 0 10%;
+}
+
+td {
+	font-size: 12px;
+}
+
+th {
+	text-align: center
+	font-size: 14px;
+}

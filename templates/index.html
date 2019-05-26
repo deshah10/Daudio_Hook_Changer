@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %} Daud Hook Changer {% endblock %}
+
+{% block scripts %} 
+<script> var OrigHook = {{hook|safe}} </script>
+{% endblock %}
+
+{% block body %} 
+
+
+<h1> Daud Hook Settings Changer </h1>
+
+<div id="left_container">
+	<div id="revert_changes_container">
+		<button id="revert_hook_changes" class="btn btn-light hide"> Revert All Hook Changes </button>
+	</div>
+	<form id="hook_changer_form" action="" method="POST">
+		<!-- Using Javascript to build form inputs  -->
+	</form>
+</div>
+
+<div id="right_container">
+	<iframe id='daud_iframe'src="http://daud.io/?host=de.daud.io&world=default&spectate=true"> </iframe>
+	
+	<div id="bs_alert_success" class="alert alert-success alert-dismissable collapse" role="alert">
+		<a href="#" id="bs_alert_success_close" class="close" data-dismiss="alert">&times;</a>
+		Server Successfully Updated!
+	</div>
+
+	<button id="submit_hook_changes" class="btn btn-light hide"> Submit Hook Changes </button>
+	<button id="changed_hook_download" class="btn btn-light hide"> Download Hook Changes </button>
+	
+	<br/>
+
+	<div id="hook_changes_summary"> <!-- Using Javascript to build a table containing hook channges in here. --> </div>	
+</div>
+
+
+{% endblock %}
